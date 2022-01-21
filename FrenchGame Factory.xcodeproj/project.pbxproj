@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43B4E13627672B2200842E19 /* Chest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E13527672B2200842E19 /* Chest.swift */; };
+		43B4E1452767690400842E19 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4E1442767690400842E19 /* Globals.swift */; };
 		43CFEA9A274B9C6300EDC834 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFEA99274B9C6300EDC834 /* main.swift */; };
+		43CFEAA3274B9EAA00EDC834 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFEAA2274B9EAA00EDC834 /* Game.swift */; };
+		43CFEAA5274BA25B00EDC834 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFEAA4274BA25B00EDC834 /* Character.swift */; };
+		43CFEAA7274BA37700EDC834 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFEAA6274BA37700EDC834 /* Player.swift */; };
+		43CFEAA9274BA6FB00EDC834 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFEAA8274BA6FB00EDC834 /* Weapon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		43B4E13527672B2200842E19 /* Chest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chest.swift; sourceTree = "<group>"; };
+		43B4E1442767690400842E19 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		43CFEA96274B9C6300EDC834 /* FrenchGame Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FrenchGame Factory"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CFEA99274B9C6300EDC834 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		43CFEAA2274B9EAA00EDC834 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		43CFEAA4274BA25B00EDC834 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		43CFEAA6274BA37700EDC834 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		43CFEAA8274BA6FB00EDC834 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43B4E143276767C200842E19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43CFEAA2274B9EAA00EDC834 /* Game.swift */,
+				43CFEAA6274BA37700EDC834 /* Player.swift */,
+				43CFEAA4274BA25B00EDC834 /* Character.swift */,
+				43B4E13527672B2200842E19 /* Chest.swift */,
+				43CFEAA8274BA6FB00EDC834 /* Weapon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		43CFEA8D274B9C6300EDC834 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +81,9 @@
 		43CFEA98274B9C6300EDC834 /* FrenchGame Factory */ = {
 			isa = PBXGroup;
 			children = (
+				43B4E1442767690400842E19 /* Globals.swift */,
 				43CFEA99274B9C6300EDC834 /* main.swift */,
+				43B4E143276767C200842E19 /* Models */,
 			);
 			path = "FrenchGame Factory";
 			sourceTree = "<group>";
@@ -120,7 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43CFEAA9274BA6FB00EDC834 /* Weapon.swift in Sources */,
+				43CFEAA7274BA37700EDC834 /* Player.swift in Sources */,
 				43CFEA9A274B9C6300EDC834 /* main.swift in Sources */,
+				43B4E1452767690400842E19 /* Globals.swift in Sources */,
+				43B4E13627672B2200842E19 /* Chest.swift in Sources */,
+				43CFEAA5274BA25B00EDC834 /* Character.swift in Sources */,
+				43CFEAA3274B9EAA00EDC834 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
